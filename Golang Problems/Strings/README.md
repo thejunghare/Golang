@@ -1,6 +1,8 @@
 <h2>Problem statement</h2>
 <ul>
-  <li>▶ Golang program to access characters of strings ◀</li>
+  <a href="https://github.com/prasad-nimap/Golang/tree/main/Golang%20Problems/Strings/01Program">
+    <li> Golang program to access characters of strings </li>
+  </a>
   <li>▶ Golang program to check a string contains a specified substring ◀</li>
   <li>▶ Golang program to convert specified string in uppercase ◀</li>
   <li>▶ Golang program to convert specified string in lowercase ◀</li>
