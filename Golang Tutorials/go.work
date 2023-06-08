@@ -1,0 +1,24 @@
+go 1.20
+
+use (
+	./00Try
+	./01hello
+	./02variables
+	./03userinput
+	./04datatypes
+	./05arrays
+	./06slice
+	./07conditions
+	./08switch
+	./09loops
+	./10functions
+	./11struct
+	./12maps
+	./13defer
+	./14files
+	./16packages
+	./17strings
+	./18typecasting
+	// ./Programs/strings
+	./learnpackage
+)
