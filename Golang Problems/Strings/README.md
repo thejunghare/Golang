@@ -1,22 +1,61 @@
 <h2>Functions Studied</h2>
 <ol>
     <li>
-        <a>strings.Contains</a> : used to check if given letters exist in string.
+        <b><u>strings.Contains()</u></b> : used to check if given letters exist in string.
     </li>
     <li>
-        <a>strings.ToUpper</a> : used to converts string to upper case.
+        <b><u>strings.ToUpper()</u></b> : used to converts string to upper case.
     </li>
     <li>
-        <a>strings.ToLower</a> : used to converts string to lower case.
+        <b><u>strings.ToLower()</u></b> : used to converts string to lower case.
     </li>
     <li>
-        <a>len</a> : used to finds length of the string.
+        <b><u>len</u></b> : used to finds length of the string.
     </li>
     <li>
-        <a>strings.Index</a> : used to find index of specified character in the string.
+        <b><u>strings.Index()</u></b> : used to find index of specified character in the string.
     </li>
     <li>
-        <a>strings.Split</a> : used to break the given string into list of sub strings.
+        <b><u>strings.Split()</u></b> : used to break the given string into list of sub strings.
+    </li>
+    <li>
+        <b><u>strings.HasPrefix()</u></b> : used to check the prefix of specified string.
+    </li>
+    <li>
+        <b><u>strings.HasSuffix()</u></b> : used to check the suffix of specified string.
+    </li>
+    <li>
+        <b><u>strings.Trim()</u></b> : used to trim the specified characters from a string.
+    </li>
+    <li>
+        <b><u>strings.TrimLeft()</u></b> : used to trim the specified characters from left side of a string.
+    </li>
+    <li>
+        <b><u>strings.TrimRight()</u></b> : used to trim the specified characters from right side of a string.
+    </li>
+    <li>
+        <b><u>strings.Repeat()</u></b> : used to repeat a specified charcter of a string.
+    </li>
+    <li>
+        <b><u>strings.Replace()</u></b> : used to replace a specified character with another character of a string.
+    </li>
+    <li>
+        <b><u>strings.Join()</u></b> : used to join elements of a string.
+    </li>
+    <li>
+        <b><u>strings.Join()</u></b> : used to join elements of a string.
+    </li>
+    <li>
+        <b><u>strings.Title()</u></b> : used to converet a string into a title case.
+    </li>
+    <li>
+        <b><u>strings.ReplaceAll()</u></b> : used to replace a given substring with another substring.
+    </li>
+    <li>
+        <b><u>strings.Compare()</u></b> : used to compare two strings with each other.
+    </li>
+    <li>
+        <b><u>strings.ContainsAny()</u></b> : used to check if the input string contains any of the characters or Unicode code points of another string.
     </li>
 </ol>
 
