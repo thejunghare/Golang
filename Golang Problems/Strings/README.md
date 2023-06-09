@@ -66,4 +66,44 @@
      Golang code to get characters from a string using the index.
     </a>
   </li>
+  <li>
+    <a href="https://github.com/prasad-nimap/Golang/tree/main/Golang%20Problems/Strings/15Program/main.go">
+     Printing the ASCII value of characters of the string in Golang.
+    </a>
+  </li>
+  <li>
+    <a href="https://github.com/prasad-nimap/Golang/tree/main/Golang%20Problems/Strings/16Program/main.go">
+     Trimming space from both ends of string using TrimSpace() function in Golang.
+    </a>
+  </li>
+  <li>
+    <a href="https://github.com/prasad-nimap/Golang/tree/main/Golang%20Problems/Strings/17Program/main.go">
+     Golang program to demonstrate the strings.Compare() function.
+    </a>
+  </li>
+  <li>
+    <a href="https://github.com/prasad-nimap/Golang/tree/main/Golang%20Problems/Strings/18Program/main.go">
+     Golang program to demonstrate the strings.ContainsAny() function.
+    </a>
+  </li>
+  <li>
+    <a href="https://github.com/prasad-nimap/Golang/tree/main/Golang%20Problems/Strings/19Program/main.go">
+     Golang program to check a specified string contains a Unicode code point.
+    </a>
+  </li>
+  <li>
+    <a href="https://github.com/prasad-nimap/Golang/tree/main/Golang%20Problems/Strings/20Program/main.go">
+     Golang program to match two same strings in different cases.
+    </a>
+  </li>
+  <li>
+    <a href="https://github.com/prasad-nimap/Golang/tree/main/Golang%20Problems/Strings/21Program/main.go">
+     Golang program to get the index of a specified character in the specified string.
+    </a>
+  </li>
+  <li>
+    <a href="https://github.com/prasad-nimap/Golang/tree/main/Golang%20Problems/Strings/22Program/main.go">
+     Golang code to find the index of last occurrence of specified substring in specified string.
+    </a>
+  </li>
 </ol>
