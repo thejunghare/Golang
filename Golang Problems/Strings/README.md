@@ -1,3 +1,25 @@
+<h2>Functions Studied</h2>
+<ol>
+    <li>
+        <a>strings.Contains</a> : used to check if given letters exist in string.
+    </li>
+    <li>
+        <a>strings.ToUpper</a> : used to converts string to upper case.
+    </li>
+    <li>
+        <a>strings.ToLower</a> : used to converts string to lower case.
+    </li>
+    <li>
+        <a>len</a> : used to finds length of the string.
+    </li>
+    <li>
+        <a>strings.Index</a> : used to find index of specified character in the string.
+    </li>
+    <li>
+        <a>strings.Split</a> : used to break the given string into list of sub strings.
+    </li>
+</ol>
+
 <h2>Problem statement</h2>
 <ol>
   <li>
@@ -104,6 +126,21 @@
   <li>
     <a href="https://github.com/prasad-nimap/Golang/tree/main/Golang%20Problems/Strings/22Program/main.go">
      Golang code to find the index of last occurrence of specified substring in specified string.
+    </a>
+  </li>
+  <li>
+    <a href="https://github.com/prasad-nimap/Golang/tree/main/Golang%20Problems/Strings/23Program/main.go">
+     Golang code to change the specified string into title case.
+    </a>
+  </li>
+  <li>
+    <a href="https://github.com/prasad-nimap/Golang/tree/main/Golang%20Problems/Strings/24Program/main.go">
+     Golang code to replace all specified substrings by given substring.
+    </a>
+  </li>
+  <li>
+    <a href="https://github.com/prasad-nimap/Golang/tree/main/Golang%20Problems/Strings/25Program/main.go">
+     Golang code to find the index of last occurrence of specified character in specified string.
     </a>
   </li>
 </ol>
