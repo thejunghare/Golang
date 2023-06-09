@@ -43,9 +43,6 @@
         <b><u>strings.Join()</u></b> : used to join elements of a string.
     </li>
     <li>
-        <b><u>strings.Join()</u></b> : used to join elements of a string.
-    </li>
-    <li>
         <b><u>strings.Title()</u></b> : used to converet a string into a title case.
     </li>
     <li>
