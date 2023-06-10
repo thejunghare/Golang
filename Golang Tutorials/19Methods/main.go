@@ -24,4 +24,12 @@ func main() {
 
 	/* Calling method */
 	employee1.displaySalary()
+
+	/* calling function */
+	employee(employee1)
+}
+
+/* This same program can be done without using methods */
+func employee(e Employee){
+	fmt.Printf("Salary of %s is  %s%d", e.name, e.currency, e.salary)
 }
