@@ -14,5 +14,5 @@ func (t type ) methodName (parameter list)  {}
 s :   
 Data : Method name.  
 str : Method parameter of type string.  
-string: Return type for method.  
+string : Return type for method.  
          
