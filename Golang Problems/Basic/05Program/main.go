@@ -11,9 +11,13 @@ func isPalindrome(number int) bool {
 		remainder := number % 10
 		reverse = (reverse * 10) + remainder
 		number /= 10
+
+		if reverse == number {
+			return true
+		}
 	}
 
-	return reverse == number
+	return false
 }
 
 func main() {

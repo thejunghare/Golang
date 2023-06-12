@@ -6,3 +6,4 @@
 4. GO Program to Find Factorial of a Number.
 5. GO Program to Check Whether a Number is Palindrome or Not.
 6. GO Program to Find the Largest Number Among Three Numbers.
+7. GO Program to take user input and addition of two strings.
