@@ -1,6 +1,5 @@
 ### HackerRank Problems
 
-### Basic
 1. FizzBuzz
 2. Strings : WAP a program for following (input: de75s1rev2er, output: reversed)
    1. Trim
