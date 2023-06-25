@@ -22,4 +22,5 @@ func main() {
 	}
 
 	fmt.Println(min, max)
+	// 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
 }
