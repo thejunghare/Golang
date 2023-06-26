@@ -10,3 +10,4 @@
 5. Merge Sorted Array
 6. Two Sum - Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 7. Palindrome Number - Given an integer x, return true if x is a palindrome, and false otherwise.
+8. Remove Duplicates from Sorted Array (ints)
