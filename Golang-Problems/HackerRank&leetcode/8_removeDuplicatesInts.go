@@ -5,7 +5,7 @@ func removeDuplicates(nums []int) []int {
 	empty := []int{}
 
 	for element := range nums {
-		if maps[nums[element]] != true{
+		if maps[nums[element]] != true {
 			maps[nums[element]] = true
 			empty = append(empty, nums[element])
 		}
@@ -15,6 +15,6 @@ func removeDuplicates(nums []int) []int {
 }
 
 func main() {
-	nums := []int{1,2,3,4,5,5}
+	nums := []int{"apple", "banana", "apple", "orange", "banana", "kiwi"}
 	fmt.Println(removeDuplicates(nums))
 }
