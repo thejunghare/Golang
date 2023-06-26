@@ -8,3 +8,5 @@
 3. Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the decimal value of each fraction on a new line with  places after the decimal.
 4. MinMaxSum
 5. Merge Sorted Array
+6. Two Sum - Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+7. Palindrome Number - Given an integer x, return true if x is a palindrome, and false otherwise.
