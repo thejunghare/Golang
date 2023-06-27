@@ -26,5 +26,5 @@ func Factor(primes []int, number int) []int {
 }
 
 func main() {
-	fmt.Print(Factor([]int{2, 3, 5}, 30)) // []int{2,3,5}
+	fmt.Print(Factor([]int{2, 3, 5, 7}, 30)) // []int{2,3,5}
 }
