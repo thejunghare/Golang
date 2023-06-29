@@ -9,6 +9,30 @@ Interfaces are like rule book which define define a method (properties) to be co
 for example: type Human has properties like walk(), talk(), etc, so to be a type of Human you should implement the methods(properties) of type Human.
 
 ### syntax
+
 ```
 type Human interface {}
+```
+
+### Implementing multiple interface
+
+A type can implement more than one interface.
+
+### Embedding intrefaces
+
+Although go does not offer inheritance, it is possible to ceate a new interfaces by embedding other interfaces.
+
+```
+type interface_one interface{
+    method() type
+}
+
+type interface_two interface {
+    method() type
+}
+
+type interface_three interface {
+    interface_one
+    interface_two
+}
 ```
