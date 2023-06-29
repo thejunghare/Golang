@@ -1,39 +1,54 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
-type Person struct {
-	name string
-	age int
-	job string
+// creating user defined type Address --> struct
+type Address struct {
+	// defining fields for type address
+	name        string
+	housenumber int
+	street      string
+	city        string
+	pincode     int
+	state       string
 }
 
-func main (){
-	/* 
-		struct -> structures are variables used to store different types in one variable
+// main function
+func main() {
+	// declaring a variable of struct type
+	var a Address
+	fmt.Println(a) // output --> {0,0} (As the variable is only declare and not initalized)
 
-		type struct_name struct {
-			member1 datatype;
-			member2 datatype;
-			member3 datatype;
-		}
-	*/
+	// Declaring and initalizing
+	address1 := Address{
+		"Jule",
+		132,
+		"Time Square",
+		"New York",
+		400,
+		"US",
+	}
+	fmt.Println("Fields of address1:", address1) // output --> {Jule 132 Time Square New York 400 US}
 
-	/* Access struct members */
-	var person1 Person
+	// Name fields while initalizing
+	address2 := Address{
+		name:        "Jule",
+		housenumber: 132,
+		street:      "Time Square",
+		city:        "New York",
+		pincode:     400,
+		state:       "US",
+	}
 
-	person1.name = "Prasad"
-	person1.age = 22
-	person1.job = "Golang Dev"
+	fmt.Println("Fields with value:", address2) // output --> {Jule 132 Time Square New York 400 US}
 
-	fmt.Println("Name:",person1.name)
+	// uninitalized fields will be set to corresponding zero-value
+	address3 := Address{
+		name: "Jule",
+	}
+	fmt.Println(address3) // output --> {Jule, 0}
 
-	/* Access through function */
-	printPerson(person1)
-}
+	// Access the fields of type address
+	fmt.Println("City name is: ", address1.city) // output --> City name is: New York
 
-func printPerson(person1 Person){
-	fmt.Println("Age printed through function:", person1.age)
 }
