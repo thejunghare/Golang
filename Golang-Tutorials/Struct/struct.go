@@ -51,4 +51,14 @@ func main() {
 	// Access the fields of type address
 	fmt.Println("City name is: ", address1.city) // output --> City name is: New York
 
+	// using pointers with srtuct
+	address4 := &Address {
+		name:        "John",
+		housenumber: 132,
+		street:      "New street",
+		city:        "la",
+		pincode:     400,
+		state:       "US",
+	}
+	fmt.Println((*address4).name)
 }
