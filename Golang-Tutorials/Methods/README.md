@@ -1,18 +1,16 @@
 # Methods
+Methods are similar to the function in Golang with one difference that is methods contain a receiver argument in it, with help of this receiver arguments methods can access properties of receiver. *Receiver can be struct or non-stuct type*
 
-**Methods** :  A just a function with special recevier type between the func keyword and method name
+
+### Syntax to declare **Methods**
 
 ```
-// syntax
-func (t type ) methodName (parameter list)  {}
- 
- // example
- func (s son) Data (str string) string{
- 	return str
- }
+func (reciver_name type ) method_name (parameter_list)  {}
 ```
-s :   
-Data : Method name.  
-str : Method parameter of type string.  
-string : Return type for method.  
          
+### Methods with Pointer Receiver
+
+```
+func (p *type) method_name(...Type) Type {}
+```
+Note: *Go methods can accpet both value and pointer.*

@@ -2,34 +2,52 @@ package main
 
 import "fmt"
 
-// struct - employee
-type Employee struct {
-	name     string
-	salary   int
-	currency string
+// define type Author
+type Author struct {
+	name      string
+	branch    string
+	particles int
+	salary    int
 }
 
-/* Method - displaySalary() */
-func (e Employee) displaySalary() {
-	fmt.Printf("Salary of %s is %s%d", e.name, e.currency, e.salary)
+// Method Receiver of author type
+func (a Author) show() {
+	fmt.Println("Result of struct type:", a.name)
 }
 
-/* Main function */
+// define non-struct type
+type data int
+
+// Defining a method with non-struct type receiver
+func (d1 data) multiply(d2 data) data {
+	return d1 * d2
+}
+
+// Method with pointer receiver
+func (a *Author) showinfo(abranch string) {
+	(*a).branch = abranch
+}
+
+// Main function
 func main() {
-	employee1 := Employee{
-		name:     "John Cena",
-		salary:   5000,
-		currency: "$",
+	// Declaring and initializing value of Author type
+	result := Author{
+		name: "John",
+		branch: "CS",
 	}
 
-	/* Calling method */
-	employee1.displaySalary()
+	// calling the method
+	result.show()
 
-	/* calling function */
-	employee(employee1)
-}
+	// Calling the non-struct method
+	val1 := data(5)
+	val2 := data(2)
+	res := val1.multiply(val2)
+	fmt.Println("Result of non-struct type:", res)
 
-/* This same program can be done without using methods */
-func employee(e Employee){
-	fmt.Printf("Salary of %s is  %s%d", e.name, e.currency, e.salary)
+	// Creating a pointer
+	pointer := &result
+	pointer.showinfo("CSE")
+
+	fmt.Print(result.branch)
 }
