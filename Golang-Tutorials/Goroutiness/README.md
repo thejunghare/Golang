@@ -1,10 +1,10 @@
-# **Concurrency**
+## **Concurrency**
 
 Concurrency capability to deal with lots of thigs at once.
 
 Concurrency is just an illusion of parallelism.
 
-# **Parallelism**
+## **Parallelism**
 
 Parallelism is doing lots of things at the same time.
 
