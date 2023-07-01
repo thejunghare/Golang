@@ -22,6 +22,21 @@ This both operations collectively known as communication.
 The direction of <- operator indicates whether the data is received or send.
 
 ## Send operation
+
 The send operation is used to send data from one goroutine to another goroutine with help of channel.
 
 Values like int, float64, and bool are safe and easy to send, whereas sending pointers or reference like a slice, map, etc aren't secure.
+
+```
+Mychannel <- element
+```
+
+The above statement indicates that the data(element) send to the channel with help of a <- operator.
+
+## Receive operation
+
+The receive operation is used to receive the data sent to by the send operator.
+
+```
+elemnt := <-Mychannel
+```
