@@ -71,3 +71,14 @@ cap(Mychannel)
 ## Deadlock
 
 One important factor to consider while using channels is deadlock. If a Goroutine is sending data on a channel, then it is expected that some other Goroutine should be receiving the data. If this does not happen, then the program will panic at runtime with Deadlock.
+
+## Closing channels and for range loops on channels
+
+sender have the ability to close the channel to notify receivers that no more data will be sent on the channel.
+
+Receivers can use an additional variable while receiving data from the channel to check wether the channel has been closed.
+
+```
+v, ok := <- ch
+```
+
