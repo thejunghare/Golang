@@ -40,3 +40,20 @@ The receive operation is used to receive the data sent to by the send operator.
 ```
 elemnt := <-Mychannel
 ```
+
+## Closing a Channel
+
+You can aslo close a channel with help of close() function.
+```
+close(Mychannel)
+```
+
+## Length of Channel
+```
+len(Mychannel)
+```
+
+## Capacity of Channel
+```
+cap(Mychannel)
+```
