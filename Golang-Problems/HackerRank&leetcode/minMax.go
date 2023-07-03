@@ -1,9 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"sort"
+)
 
 func main() {
 	arr := []int32{7, 69, 2, 221, 8974}
+	sort.Slice(arr, func(i, j int) bool { return arr[i] < arr[j] })
 	min, max := 0, 0
 	//min := 0
 
