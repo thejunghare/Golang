@@ -13,15 +13,6 @@ const PI = 3.14 // Untyped Const
 func main() {
 	fmt.Println("Variables")
 
-	/*  Multi-word variable names
-	1. Camel Case
-		-> variableName := value
-	2. Pascal Case
-		-> VariableName := value
-	3. Snake Case
-		-> variable_name := value
-	*/
-
 	var username string = "nimap"
 	fmt.Println(username) // Print variable name
 

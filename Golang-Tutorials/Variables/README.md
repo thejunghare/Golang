@@ -38,3 +38,9 @@ Syntax:
      b int = 1 <br>
      c string = "Hello" <br>
      )
+
+7. *Multi-word variable names*
+	- Camel Case : variableName := value
+	- Pascal Case : VariableName := value
+	- Snake Case : variable_name := value
+	
