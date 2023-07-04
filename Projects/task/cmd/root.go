@@ -1,10 +1,11 @@
 package cmd
 
-import "github.com/spf13/cobra"
+import (
+	"github.com/spf13/cobra"
+)
 
-// Define root cmd
+// rootCmd represents the base command when called without any subcommands
 var RootCmd = &cobra.Command{
-	Use:   "Cli task manager",
-	Short: "Helps you to manage your task list",
-	// This command does not have the RUN function as this does not perform any kind of action it only show task usages
+	Use:   "Command line task manager",
+	Short: "Helps to manage task list",
 }
