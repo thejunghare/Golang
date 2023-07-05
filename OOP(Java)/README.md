@@ -56,3 +56,8 @@ inheriting methods and attributes from one class to another is called as inherit
 2. superclass (parent) :- The class being inherited from.
 
 In java we use *extends* keyword to inherit
+
+
+## Plymorphism
+
+Polymorphoism means *many forms*. polymorphoism like inheritance lets us inherit attributes and methods from another class. Basically allows us to perform a single action in different ways.
