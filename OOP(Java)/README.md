@@ -26,9 +26,21 @@ OOP stands for object-Oriented Programming.
 
 ## Class
 
+Classes can be defined as group of objects with common properties.
+
 ## Object
 
+An object is an instance of a class
+
+Object can have three properties:-
+
+1. state :- represents data
+2. Behavior :- represents behavior
+3. identity :- an object identity is typically implemented via a unique ID.
+
 ## Method
+
+A method sometimes aslo called as function is a block of code which only runs when it is called.
 
 ## Constructors
 
@@ -47,7 +59,6 @@ Hidding user data from users is encapsulation, to achieve encapsulation you must
 1. Declare class variables/attributes as private.
 2. provide public get and set methods to access and update the value of a private variable.
 
-
 ## Inheritance
 
 inheriting methods and attributes from one class to another is called as inheritance. Inheritance can be grouped in two categories :-
@@ -55,9 +66,8 @@ inheriting methods and attributes from one class to another is called as inherit
 1. subclass (child) :- The class that inherits from another class.
 2. superclass (parent) :- The class being inherited from.
 
-In java we use *extends* keyword to inherit
-
+In java we use _extends_ keyword to inherit
 
 ## Plymorphism
 
-Polymorphoism means *many forms*. polymorphoism like inheritance lets us inherit attributes and methods from another class. Basically allows us to perform a single action in different ways.
+Polymorphoism means _many forms_. polymorphoism like inheritance lets us inherit attributes and methods from another class. Basically allows us to perform a single action in different ways.
