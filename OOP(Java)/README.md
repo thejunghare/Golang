@@ -22,7 +22,7 @@ We attempt to provide a straightforward examination of the object-oriented progr
 
 ## OOP (Java)
 
-OOP stands for object-Oriented Programming. Object-Oriented Programming is a methodology or paradigm to design a program using classes and objects. 
+OOP stands for object-Oriented Programming. Object-Oriented Programming is a methodology or paradigm to design a program using classes and objects.
 
 It simplifies software development and maintenance by providing some concepts:
 
@@ -80,3 +80,24 @@ In java we use _extends_ keyword to inherit.
 ## Plymorphism
 
 Polymorphoism means _many forms_. polymorphoism like inheritance lets us inherit attributes and methods from another class. Basically allows us to perform a single action in different ways.
+
+## Abstraction
+
+Abstraction is the process of hiding certain details and showing only essential information.
+
+Absraction can be achieved with either abstract class or interface
+
+1. Abstract class :- is a restricted class that cannot be used to create objects.
+2. Abstract method :- can only used in an abstract class, it does not have a body. Body is provided by subclass.
+
+## Interface
+
+In simple words interface lets us group together different types based on their behaviour.
+
+Interfaces are like rule book which define define a method (properties) to be considered as a specific type.
+
+for example: type Human has properties like walk(), talk(), etc, so to be a type of Human you should implement the methods(properties) of type Human.
+
+FOR JAVA
+Another way to achieve abstraction in Java, is with interfaces.
+An interface is a completely "abstract class"
