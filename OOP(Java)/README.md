@@ -22,7 +22,16 @@ We attempt to provide a straightforward examination of the object-oriented progr
 
 ## OOP (Java)
 
-OOP stands for object-Oriented Programming.
+OOP stands for object-Oriented Programming. Object-Oriented Programming is a methodology or paradigm to design a program using classes and objects. 
+
+It simplifies software development and maintenance by providing some concepts:
+
+1. Object
+2. Class
+3. Inheritance
+4. Polymorphism
+5. Abstraction
+6. Encapsulation
 
 ## Class
 
@@ -30,7 +39,7 @@ Classes can be defined as group of objects with common properties.
 
 ## Object
 
-An object is an instance of a class
+An object is an instance of a class.
 
 Object can have three properties:-
 
@@ -46,7 +55,7 @@ A method sometimes aslo called as function is a block of code which only runs wh
 
 A constructor in java is a special method, used to set initial values of object attributes.
 
-_Note_
+_Note_ :-
 
 1. constructor name must match the class name, and it cannot have a return type.
 2. Constructor is called when object is create.
@@ -61,12 +70,12 @@ Hidding user data from users is encapsulation, to achieve encapsulation you must
 
 ## Inheritance
 
-inheriting methods and attributes from one class to another is called as inheritance. Inheritance can be grouped in two categories :-
+Inheriting methods and attributes from one class to another is called as inheritance. Inheritance can be grouped in two categories :-
 
 1. subclass (child) :- The class that inherits from another class.
 2. superclass (parent) :- The class being inherited from.
 
-In java we use _extends_ keyword to inherit
+In java we use _extends_ keyword to inherit.
 
 ## Plymorphism
 
