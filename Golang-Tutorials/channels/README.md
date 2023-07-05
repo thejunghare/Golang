@@ -79,7 +79,7 @@ sender have the ability to close the channel to notify receivers that no more da
 Receivers can use an additional variable while receiving data from the channel to check wether the channel has been closed.
 
 ```
-v, ok := <- ch
+v, ok := <-ch
 ```
 
 In above statement 'ok' is *true* if the value was received by a successful send operation and *false* means we are trying to read from a closed channel.
