@@ -33,6 +33,13 @@ It simplifies software development and maintenance by providing some concepts:
 5. Abstraction
 6. Encapsulation
 
+## Four pillars of oop
+
+1. Abstraction
+2. Encapsulation
+3. Inheritance
+4. Polymorphism
+
 ## Class
 
 Classes can be defined as group of objects with common properties.
@@ -100,4 +107,4 @@ for example: type Human has properties like walk(), talk(), etc, so to be a type
 
 FOR JAVA
 Another way to achieve abstraction in Java, is with interfaces.
-An interface is a completely "abstract class"
+An interface is a completely "abstract class".
