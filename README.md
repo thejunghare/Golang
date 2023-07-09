@@ -4,13 +4,13 @@ This repository contains a collection of tutorials, notes, problems, and project
 
 ## Table of Contents
 
-1. Getting Started
-2. Tutorials
-3. Notes
-4. Problems
-5. Projects
-6. Contributing
-7. License
+- **Getting Started**
+-  **Tutorials**
+-  **Notes**
+-   **Problems**
+-   **Projects**
+-   **Contributing**
+-   **License**
 
 ## Getting Started
 
