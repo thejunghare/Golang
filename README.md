@@ -22,7 +22,7 @@ Clone this repository to your local machine using the following command:
 
 bash
 Copy code
-git clone https://github.com/thejunghare/golang-tutorials-projects.git
+git clone https://github.com/thejunghare/Golang.git
 Explore the different folders and files within the repository to access the tutorials, notes, problems, and projects.
 
 ## Tutorials
