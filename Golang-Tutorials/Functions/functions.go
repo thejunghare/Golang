@@ -34,7 +34,7 @@ func returnFunction(x int, y int) int {
 }
 
 /* Multiple return function */
-func multipleReturnFunction(x int, y string)(result int, txt string){
+func multipleReturnFunction(x int, y string) (result int, txt string) {
 	result = x + x
 	txt = y + "world"
 	return
@@ -51,7 +51,14 @@ func main() {
 
 	fmt.Println(returnFunction(2, 3)) /* Calling return function with parameters */
 
-	_,b := multipleReturnFunction(5, "hello ")  /* Calling return function with multiple return function */
+	_, b := multipleReturnFunction(5, "hello ") /* Calling return function with multiple return function */
 
 	fmt.Println(b)
+
+	// using the variables as function
+	sum := func(x, y int) int {
+		return x + y
+	}
+
+	println(sum(4, 5))
 }
