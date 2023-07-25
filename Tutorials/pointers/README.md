@@ -44,3 +44,7 @@ pointer_variable := &variable_name
 variable_name := 123
 fmt.Print(*variable_name)
 ```
+
+## important notes
+
+For some composite type, such as struct, you can get address without declaring other variable to get the address from.
