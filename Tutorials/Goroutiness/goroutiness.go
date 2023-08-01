@@ -1,32 +1,30 @@
 package main
 
 import (
-	"fmt"
+	// "fmt"
 	"time"
 )
 
+func Task1() {
+	x := 5
+	x++
+	println(x)
+}
+
+func Task2() {
+	y := 6
+	y--
+	println(y)
+}
+
 func main() {
-	go hello()
-	go world()
+	go Task1()
+	go Task2()
 	time.Sleep(3 * time.Second)
 	/*
 		In this case using the time package the main function is put to sleep for 1 second and go hello()
 		has enough time to execute before the main goroutine
 		terminates.
 	*/
-	fmt.Println("Main function")
-}
-
-func hello() {
-	for i := 1; i <= 5; i++ {
-		time.Sleep(250 * time.Millisecond)
-		fmt.Printf("%d ", i)
-	}
-}
-
-func world() {
-	for i := 'a'; i <= 'e'; i++ {
-        time.Sleep(400 * time.Millisecond)
-        fmt.Printf("%c ", i)
-    }
+	println("Main function")
 }
