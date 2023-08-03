@@ -35,11 +35,30 @@ C[Signature] --> F("A string that is
 ```
 
 Defines the structure of information we are sending from one party to another, and it comes in two forms:
+- Serialized
+- Deserialized
 
-**Serialized**
+```mermaid
+graph 
 
-This involves transfer of data through the network with request and response.
+subgraph JSON web token 
+    A[Serialized]
+    B[Deserialized]
+end
 
-**Deserialized**
+A[Serialized] --> C("
+        This involves transfer 
+        of data through the 
+        network with request 
+        and response.
+    ")
+B[Deserialized] --> D("
+        Used to read and write
+        data to the web token.
+        In deserialized form 
+        contains only the header
+        and the playoad. Both of 
+        them are plain JSON objects.
+    ")
+```
 
-Used to read and write data to the web token.In deserialized form contains only the header and the playoad. Both of them are plain JSON objects.
