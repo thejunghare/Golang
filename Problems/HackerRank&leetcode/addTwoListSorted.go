@@ -1,40 +1,35 @@
-/* Program to merge two list */
-
 package main
 
-import (
-	"fmt"
-)
-
-/**
- * Definition for singly-linked list.
- * type ListNode struct {
- *     Val int
- *     Next *ListNode
- * }
- */
+import "fmt"
 
 type ListNode struct {
 	Val  int
 	Next *ListNode
 }
 
-func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
-	if list1 == nil {
-		return list2
-	} else if list2 == nil {
-		return list1
+func mergeAndSortList(list1, list2 *ListNode) *ListNode {
+	dummy := &ListNode{}
+	tail := dummy
+
+	current :=  list1
+
+	for list1 != nil && list2 != nil {
+		if list1.Val < list2.Val {
+			tail.Next = list1
+			list1 = list1.Next
+		} else {
+			tail.Next = list2
+			list2 = list2.Next
+		}
 	}
 
-	current := list1 	
-
-	for current.Next != nil {
-		current = current.Next
+	if list1 != nil {
+		tail.Next = list1
+	} else {
+		tail.Next = list2
 	}
 
-	current.Next = list2
-
-	return list1
+	return dummy.Next
 }
 
 func printList(list *ListNode) {
@@ -71,6 +66,6 @@ func main() {
 
 	// list2 := &ListNode{}
 
-	mergredList := mergeTwoLists(list1, list2)
+	mergredList := mergeAndSortList(list1, list2)
 	printList(mergredList)
 }
